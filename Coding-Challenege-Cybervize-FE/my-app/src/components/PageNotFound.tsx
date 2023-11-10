@@ -22,7 +22,7 @@ const PageNotFound = () => {
         The requested page does not exist.
       </Typography>
       <Button variant="outlined" sx={{marginTop:"10px"}} onClick={() => navigate(-1)} >
-          Go Back
+        Go Back
       </Button>
     </Wrapper>
   );
