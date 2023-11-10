@@ -4,9 +4,8 @@ import Home from '../components/Home';
 
 const AppRoutes = () => {
     return (
-        <Routes>
+      <Routes>
         <Route path="/" element={<Home />} />
-          
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     );
